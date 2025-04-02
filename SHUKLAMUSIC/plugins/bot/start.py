@@ -27,33 +27,6 @@ from SHUKLAMUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
-import time
-import random
-from pyrogram import filters
-from pyrogram.enums import ChatType
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from youtubesearchpython.__future__ import VideosSearch
-
-import config
-from SONALI_MUSIC import app
-from SONALI_MUSIC.misc import _boot_
-from SONALI_MUSIC.Plugins.sudo.sudoers import sudoers_list
-from SONALI_MUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
-from SONALI_MUSIC.utils import bot_sys_stats
-from SONALI_MUSIC.utils.database import (
-    add_served_chat,
-    add_served_user,
-    blacklisted_chats,
-    get_lang,
-    is_banned_user,
-    is_on_off,
-)
-from SONALI_MUSIC.utils.decorators.language import LanguageStart
-from SONALI_MUSIC.utils.formatters import get_readable_time
-from SONALI_MUSIC.utils.inline import help_pannel, private_panel, start_panel
-from config import BANNED_USERS
-from strings import get_string
-
    
 
 NEXIO = [
